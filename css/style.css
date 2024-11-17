@@ -100,6 +100,8 @@ hr {
 }
 
 .main-article_cover {
+	display: flex;
+	flex-direction: column;
 	margin: 0 0 1.6rem;
 }
 
@@ -128,6 +130,8 @@ hr {
 }
 
 .main-sidebar_thumb {
+	display: flex;
+	flex-direction: column;
 	margin: 0 0 0.8rem;
 }
 
@@ -168,6 +172,10 @@ hr {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	.container {
+		display: flex;
 	}
 
 	.main-article {
