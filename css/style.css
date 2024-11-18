@@ -43,6 +43,16 @@ a:hover {
 	border-bottom: 2px solid #002348;
 }
 
+footer {
+	text-align: center;
+}
+
+header {
+	background-color: #64bcda;
+	border-bottom: 8px solid #000000;
+	margin-bottom: 3.2rem;
+}
+
 hr {
 	margin: 3.2rem 1.6rem;
 	color: #555555;
@@ -64,11 +74,6 @@ hr {
 	max-width: 1000px;
 }
 
-.header {
-	background-color: #64bcda;
-	border-bottom: 8px solid #000000;
-	margin-bottom: 3.2rem;
-}
 
 .header_logo {
 	padding: 1.6rem;
@@ -161,10 +166,6 @@ hr {
 
 .main-sidebar_byline .byline_name {
 	display: block;
-}
-
-.footer {
-	text-align: center;
 }
 
 @media (min-width: 800px) {
